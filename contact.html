@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css?_v=20240625072236">
+  <script src="js/app.min.js?_v=20240625072236" defer></script>
+  <title>Contacts</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header" data-lp>
+  <div class="header__container">
+    <div class="header__body">
+      <a href="#" class="header__logo">
+        <img src="img/logo.svg" alt="Createx logo">
+      </a>
+      <div class="header__menu menu">
+        <div class="menu__inner">
+          <nav class="menu__body">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="" class="menu__link menu__link@@about">About Us</a></li>
+              <li class="menu__item"><a href="" class="menu__link menu__link@@services">Services</a></li>
+              <li class="menu__item"><a href="" class="menu__link menu__link@@work">Work</a></li>
+              <li class="menu__item"><a href="" class="menu__link menu__link@@news">News</a></li>
+              <li class="menu__item"><a href="" class="menu__link menu__link_active">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header__actions actions-header">
+        <div class="actions-header__body">
+          <a class="actions-header__link" href="tel:4055550128">
+            <div class="actions-header__icon">
+              <img src="img/icon/header-phone.svg" alt="">
+            </div>
+            <div class="actions-header__wrapper">
+              <span class="actions-header__label">Call us</span>
+              <span class="actions-header__value">(405) 555-0128</span>
+            </div>
+          </a>
+          <a class="actions-header__link" href="mailto:hello@createx.com">
+            <div class="actions-header__icon">
+              <img src="img/icon/header-mail.svg" alt="">
+            </div>
+            <div class="actions-header__wrapper">
+              <span class="actions-header__label">Talk to us</span>
+              <span class="actions-header__value">hello@createx.com</span>
+            </div>
+          </a>
+        </div>
+      </div>
+      <button type="button" class="icon-menu"><span></span></button>
+    </div>
+  </div>
+</header>
+    <main class="page">
+      <section class="page__hero-page hero-page hero-page_portfolio">
+  <div class="hero-page__wrapper">
+    <div class="hero-page__body">
+      <div class="hero-page__breadcrumbs breadcrumbs">
+        <div class="breadcrumbs__container">
+          <ol class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link" href="#">Homepage</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <span class="breadcrumbs__current">Contacts</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+      <h1 class="hero-page__title">Contacts</h1>
+      <div class="hero-page__descr">
+        <p>Contact us for all your construction needs. We always welcome any questions and comments.</p>
+      </div>
+    </div>
+    <div class="hero-page__background hero-page__background_contacts">
+      <picture><source srcset="img/contacts/01.avif, img/contacts/01_2x.avif 2x" type="image/avif"><source srcset="img/contacts/01.webp, img/contacts/01_2x.webp 2x" type="image/webp"><img src="img/contacts/01.jpg" srcset="img/contacts/01_2x.jpg 2x" alt=""></picture>
+    </div>
+  </div>
+</section>
+      <section class="page__contacts-feedback contacts-feedback">
+  <div class="contacts-feedback__container">
+    <div class="contacts-feedback__top top-block">
+      <h2 class="top-block__title" data-watch data-watch-threshold="0.3">Contact Us</h2>
+      <div class="top-block__text" data-watch data-watch-threshold="0.3">
+        <p>Please complete the form. Detailed information will help us to make a tuned offer.</p>
+      </div>
+    </div>
+    <div class="contacts-feedback__body">
+      <div class="contacts-feedback__image">
+        <picture><source srcset="img/contacts/feedback/01.avif, img/contacts/feedback/01_2x.avif 2x" type="image/avif"><source srcset="img/contacts/feedback/01.webp, img/contacts/feedback/01_2x.webp 2x" type="image/webp"><img src="img/contacts/feedback/01.jpg" srcset="img/contacts/feedback/01_2x.jpg 2x" alt=""></picture>
+      </div>
+      <form action="#" class="contacts-feedback__form form-contacts">
+        <div class="form-contacts__body">
+          <label class="form-contacts__item">
+            <div class="form-contacts__label">Name*</div>
+            <input autocomplete="off" type="text" name="contacts-feedback-name" placeholder="Your name"
+              class="form-contacts__input input" data-required>
+          </label>
+          <label class="form-contacts__item">
+            <div class="form-contacts__label">I am interested in</div>
+            <select name="form[]" data-class-modif="form" data-required>
+              <option value="" selected>Interior Design</option>
+              <option value="1">Interior Design 1</option>
+              <option value="2">Interior Design 2</option>
+              <option value="3">Interior Design 3</option>
+            </select>
+          </label>
+          <label class="form-contacts__item">
+            <div class="form-contacts__label">Phone*</div>
+            <input autocomplete="off" type="tel" name="contacts-feedback-phone" placeholder="Your phone number"
+              class="form-contacts__input input" data-required="tel" data-tel-input>
+          </label>
+          <label class="form-contacts__item">
+            <div class="form-contacts__label">Location*</div>
+            <select name="contacts-feedback-location" data-class-modif="form" data-required>
+              <option value="New Yourk" selected>New York</option>
+              <option value="California">California</option>
+              <option value="New Jercey">New Jercey</option>
+              <option value="San Francisco">San Francisco</option>
+            </select>
+          </label>
+          <label class="form-contacts__item">
+            <div class="form-contacts__label">Email*</div>
+            <input autocomplete="off" type="text" name="contacts-feedback-email" placeholder="Your working email"
+              class="form-contacts__input input" data-required="email">
+          </label>
+          <div class="form-contacts__item">
+            <div class="form-contacts__label">Preferred contact method</div>
+            <div class="form-contacts__options options">
+              <label class="options__item">
+                <input type="radio" class="options__input" checked name="contact-method" value="phone">
+                <span class="options__text">Phone</span>
+              </label>
+              <label class="options__item">
+                <input type="radio" class="options__input" name="contact-method" value="email">
+                <span class="options__text">Email</span>
+              </label>
+              <label class="options__item">
+                <input type="radio" class="options__input" name="contact-method" value="viber">
+                <span class="options__text">Viber</span>
+              </label>
+            </div>
+          </div>
+          <label class="form-contacts__item form-contacts__item_big">
+            <div class="form-contacts__label">Message*</div>
+            <textarea autocomplete="off" name="form-contacts-message" placeholder="Your message"
+              class="form-contacts__input input" data-required data-min-length="10" data-max-length="150"></textarea>
+          </label>
+        </div>
+        <div class="form-contacts__bottom">
+          <div class="form-contacts__checkbox checkbox">
+            <label class="checkbox__item">
+              <input type="checkbox" class="checkbox__input" value="contact-feedback-agree">
+              <span class="checkbox__text">I agree to receive communications from Createx Construction Bureau.</span>
+            </label>
+          </div>
+          <button type="submit" class="form-contacts__button button button_fill">send request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+      <section class="page__contacts-offices contacts-offices">
+  <div class="contacts-offices__container">
+    <div class="contacts-offices__body">
+      <div class="contacts-offices__top top-block">
+        <h2 class="top-block__title" data-watch data-watch-threshold="0.3">Our offices</h2>
+        <div class="top-block__text" data-watch data-watch-threshold="0.3">
+          <p>Give us a call, send us a note or visit our office. We can’t wait to hear from you!</p>
+        </div>
+      </div>
+      <ul class="contacts-offices__list">
+        <li class="contacts-offices__item item-contacts-offices">
+          <h3 class="item-contacts-offices__title">New York, USA</h3>
+          <div class="item-contacts-offices__body">
+            <div class="item-contacts-offices__address _offices-value">8502 Preston Rd. Inglewood, New York 98380</div>
+            <a class="item-contacts-offices__link-map" href="#">See on the map</a>
+            <ul class="item-contacts-offices__sub-list sub-list-offices">
+              <span class="visually-hidden">Contacts</span>
+              <li class="sub-list-offices__item">
+                <div class="sub-list-offices__name">Call:</div>
+                <a class="sub-list-offices__value sub-list-offices__value_link _offices-value"
+                  href="tel:4055550128">(405) 555-0128</a>
+              </li>
+              <li class="sub-list-offices__item">
+                <div class="sub-list-offices__name">Email:</div>
+                <a class="sub-list-offices__value sub-list-offices__value_link _offices-value"
+                  href="mailto:hello@createx.com">hello@createx.com</a>
+              </li>
+              <li class="sub-list-offices__item">
+                <div class="sub-list-offices__name">Schedule:</div>
+                <a class="sub-list-offices__value _offices-value">Mon — Fri 9:00 —
+                  18:00</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="contacts-offices__item item-contacts-offices">
+          <h3 class="item-contacts-offices__title">New Jersey, USA</h3>
+          <div class="item-contacts-offices__body">
+            <div class="item-contacts-offices__address _offices-value">2464 Royal Ln. Mesa, New Jersey 45463</div>
+            <a class="item-contacts-offices__link-map" href="#">See on the map</a>
+            <ul class="item-contacts-offices__sub-list sub-list-offices">
+              <span class="visually-hidden">Contacts</span>
+              <li class="sub-list-offices__item">
+                <div class="sub-list-offices__name">Call:</div>
+                <a class="sub-list-offices__value sub-list-offices__value_link _offices-value"
+                  href="tel:8085550111">(808) 555-0111</a>
+              </li>
+              <li class="sub-list-offices__item">
+                <div class="sub-list-offices__name">Email:</div>
+                <a class="sub-list-offices__value sub-list-offices__value_link _offices-value"
+                  href="mailto:hello@createx.com">hello@createx.com</a>
+              </li>
+              <li class="sub-list-offices__item">
+                <div class="sub-list-offices__name">Schedule:</div>
+                <a class="sub-list-offices__value _offices-value">Mon — Fri 9:00 —
+                  18:00</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="contacts-offices__item item-contacts-offices">
+          <h3 class="item-contacts-offices__title">San Francisco, USA</h3>
+          <div class="item-contacts-offices__body">
+            <div class="item-contacts-offices__address _offices-value">8502 Preston Rd. Inglewood, San Francisco 98380
+            </div>
+            <a class="item-contacts-offices__link-map" href="#">See on the map</a>
+            <ul class="item-contacts-offices__sub-list sub-list-offices">
+              <span class="visually-hidden">Contacts</span>
+              <li class="sub-list-offices__item">
+                <div class="sub-list-offices__name">Call:</div>
+                <a class="sub-list-offices__value sub-list-offices__value_link _offices-value"
+                  href="tel:5055550125">(505) 555-0125</a>
+              </li>
+              <li class="sub-list-offices__item">
+                <div class="sub-list-offices__name">Email:</div>
+                <a class="sub-list-offices__value sub-list-offices__value_link _offices-value"
+                  href="mailto:hello@createx.com">hello@createx.com</a>
+              </li>
+              <li class="sub-list-offices__item">
+                <div class="sub-list-offices__name">Schedule:</div>
+                <a class="sub-list-offices__value _offices-value">Mon — Fri 10:00 — 19:00</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+      <section class="page__contacts-find contacts-find">
+  <div class="contacts-find__container">
+    <div class="contacts-find__body">
+      <div class="contacts-find__top top-block">
+        <h2 class="top-block__title" data-watch data-watch-threshold="0.3">Find us at</h2>
+      </div>
+      <div class="contacts-find__socials socials-find">
+        <ul class="socials-find__list">
+          <li class="socials-find__item">
+            <a class="socials-find__social socials-find__social_whatsapp" href="#" aria-label="Whatsapp">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M27.3327 13.6559C27.3327 20.8302 21.4722 26.6459 14.2417 26.6459C11.9463 26.6459 9.78987 26.0592 7.91372 25.0296L0.666016 27.3327L3.02898 20.3632C1.83698 18.4059 1.15046 16.1102 1.15046 13.6559C1.15046 6.48172 7.0115 0.666016 14.2417 0.666016C21.4728 0.666016 27.3327 6.48172 27.3327 13.6559ZM14.2417 2.73476C8.17239 2.73476 3.2355 7.63402 3.2355 13.6559C3.2355 16.0456 4.01446 18.2586 5.33209 20.0589L3.95698 24.1149L8.18661 22.7706C9.92439 23.9116 12.0062 24.5771 14.242 24.5771C20.3105 24.5771 25.2482 19.6785 25.2482 13.6565C25.2482 7.63461 20.3108 2.73476 14.2417 2.73476ZM20.8524 16.6476C20.7715 16.5152 20.5579 16.4352 20.2373 16.2761C19.9161 16.117 18.338 15.3463 18.0447 15.2405C17.7505 15.1345 17.5359 15.0811 17.3223 15.3996C17.1087 15.7185 16.4936 16.4352 16.306 16.6476C16.1188 16.8607 15.9318 16.8873 15.6106 16.7279C15.29 16.5688 14.2562 16.2322 13.0305 15.1478C12.0767 14.3039 11.4325 13.2622 11.2453 12.9431C11.0583 12.6245 11.2257 12.4524 11.386 12.2939C11.5306 12.1511 11.7072 11.922 11.8675 11.7362C12.0284 11.5502 12.0817 11.4177 12.1881 11.205C12.2956 10.9925 12.242 10.8068 12.1614 10.6471C12.0814 10.4879 11.4391 8.92113 11.1718 8.2835C10.9045 7.64646 10.6376 7.75253 10.45 7.75253C10.2631 7.75253 10.0488 7.72587 9.8349 7.72587C9.62098 7.72587 9.27313 7.80557 8.9789 8.12409C8.68498 8.4429 7.85624 9.21327 7.85624 10.7798C7.85624 12.3466 9.00557 13.8604 9.16646 14.0725C9.32676 14.2847 11.3857 17.6044 14.6479 18.8793C17.9105 20.1537 17.9105 19.7285 18.4989 19.6752C19.0868 19.6222 20.397 18.9051 20.6654 18.162C20.9321 17.4177 20.9321 16.7804 20.8524 16.6476Z" />
+              </svg>
+            </a>
+          </li>
+          <li class="socials-find__item">
+            <a class="socials-find__social socials-find__social_messanger" href="#" aria-label="Messanger">
+              <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M13.9993 0.666016C6.63602 0.666016 0.666016 6.19268 0.666016 13.011C0.666016 16.896 2.60435 20.361 5.63435 22.6244V27.3327L10.1743 24.841C11.386 25.176 12.6693 25.3577 13.9993 25.3577C21.3627 25.3577 27.3327 19.831 27.3327 13.0127C27.3327 6.19435 21.3627 0.666016 13.9993 0.666016ZM15.3243 17.291L11.9293 13.6693L5.30435 17.291L12.5927 9.55435L16.071 13.176L22.6127 9.55435L15.3243 17.291Z" />
+              </svg>
+            </a>
+          </li>
+          <li class="socials-find__item">
+            <a class="socials-find__social socials-find__social_facebook" href="#" aria-label="Facebook">
+              <svg width="16" height="30" viewBox="0 0 16 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M15.4178 0.340088L11.7148 0.333984C7.55454 0.333984 4.86603 3.16744 4.86603 7.55296V10.8814H1.14281C0.82108 10.8814 0.560547 11.1493 0.560547 11.4798V16.3023C0.560547 16.6328 0.821377 16.9005 1.14281 16.9005H4.86603V29.0692C4.86603 29.3997 5.12656 29.6673 5.44829 29.6673H10.306C10.6278 29.6673 10.8883 29.3994 10.8883 29.0692V16.9005H15.2416C15.5633 16.9005 15.8239 16.6328 15.8239 16.3023L15.8257 11.4798C15.8257 11.3211 15.7642 11.1692 15.6551 11.0569C15.5461 10.9446 15.3976 10.8814 15.2431 10.8814H10.8883V8.05983C10.8883 6.70368 11.2029 6.01523 12.9227 6.01523L15.4172 6.01432C15.7386 6.01432 15.9991 5.74638 15.9991 5.41619V0.93821C15.9991 0.608327 15.7389 0.340698 15.4178 0.340088Z" />
+              </svg>
+            </a>
+          </li>
+          <li class="socials-find__item">
+            <a class="socials-find__social socials-find__social_twitter" href="#" aria-label="Twitter">
+              <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M28 2.69579C26.9694 3.13304 25.8637 3.42958 24.7019 3.56197C25.8881 2.88176 26.7962 1.80286 27.2266 0.52121C26.1138 1.15113 24.8855 1.60852 23.5768 1.85648C22.5287 0.785942 21.038 0.119141 19.3845 0.119141C16.2124 0.119141 13.6404 2.58189 13.6404 5.61761C13.6404 6.04815 13.6911 6.46867 13.7891 6.87078C9.01601 6.64123 4.78357 4.45157 1.95085 1.12431C1.45568 1.9352 1.17399 2.88005 1.17399 3.88864C1.17399 5.79687 2.18881 7.48059 3.72854 8.46565C2.78719 8.43551 1.90185 8.18756 1.12677 7.77542V7.84411C1.12677 10.5079 3.10741 12.7311 5.73365 13.237C5.25248 13.361 4.74509 13.4297 4.22018 13.4297C3.84927 13.4297 3.49058 13.3945 3.13889 13.3275C3.87023 15.5138 5.99087 17.1037 8.50341 17.1473C6.53851 18.6216 4.06097 19.4978 1.36999 19.4978C0.906341 19.4978 0.449648 19.471 0 19.4224C2.54229 20.9855 5.56048 21.8969 8.80437 21.8969C19.3706 21.8969 25.1463 13.5168 25.1463 6.24923L25.1271 5.53722C26.2556 4.76651 27.2319 3.79818 28 2.69579Z" />
+              </svg>
+
+            </a>
+          </li>
+          <li class="socials-find__item">
+            <a class="socials-find__social socials-find__social_youtube" href="#" aria-label="Youtube">
+              <svg width="32" height="24" viewBox="0 0 32 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M28.5204 1.48608C29.891 1.85522 30.9718 2.93578 31.3407 4.30662C32.0262 6.81052 31.9999 12.0297 31.9999 12.0297C31.9999 12.0297 31.9999 17.2223 31.3409 19.7265C30.9718 21.0971 29.8912 22.1779 28.5204 22.5468C26.0162 23.2059 15.9999 23.2059 15.9999 23.2059C15.9999 23.2059 6.00974 23.2059 3.47948 22.5206C2.10863 22.1515 1.02807 21.0707 0.658933 19.7001C0 17.2223 0 12.0034 0 12.0034C0 12.0034 0 6.81052 0.658933 4.30662C1.02783 2.93602 2.135 1.82885 3.47923 1.45996C5.98337 0.800781 15.9997 0.800781 15.9997 0.800781C15.9997 0.800781 26.0162 0.800781 28.5204 1.48608ZM21.1399 12.0034L12.8105 16.8008V7.20603L21.1399 12.0034Z" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="page__callback callback section">
+  <div class="callback__background" data-watch data-watch-threshold="0">
+    <picture><source srcset="img/callback/bg.avif, img/callback/bg_2x.avif 2x" type="image/avif"><source srcset="img/callback/bg.webp, img/callback/bg_2x.webp 2x" type="image/webp"><img src="img/callback/bg.jpg" srcset="img/callback/bg_2x.jpg 2x" aria-hidden="true" alt=""></picture>
+  </div>
+  <div class="callback__container">
+    <div class="callback__body" data-watch data-watch-threshold="0.3">
+      <form action="#" class="callback__form form-callback">
+        <div class="form-callback__title top-block__title top-block__title_regular" data-watch
+          data-watch-threshold="0.3">A quick way to discuss
+          details
+        </div>
+        <div class="form-callback__body">
+          <label class="form-callback__item">
+            <span class="form-callback__label">Name*</span>
+            <input autocomplete="off" type="text" name="callback-name" placeholder="Your name"
+              class="form-callback__input input" data-required>
+          </label>
+          <label class="form-callback__item">
+            <span class="form-callback__label">Phone*</span>
+            <input autocomplete="off" type="tel" name="callback-phone" placeholder="Your phone number"
+              class="form-callback__input input" data-required="tel" data-tel-input>
+          </label>
+          <label class="form-callback__item">
+            <span class="form-callback__label">Email*</span>
+            <input autocomplete="off" type="text" name="callback-email" placeholder="Your working email"
+              class="form-callback__input input" data-required="email">
+          </label>
+          <label class="form-callback__item">
+            <span class="form-callback__label">Message*</span>
+            <textarea autocomplete="off" name="callback-message" placeholder="Your message"
+              class="form-callback__input input" data-required></textarea>
+          </label>
+          <label class="form-callback__item">
+            <div class="checkbox">
+              <label class="checkbox__item">
+                <input type="checkbox" class="checkbox__input" value="Yes" name="callback-checkbox">
+                <span class="checkbox__text">I agree to receive communications from Createx Construction
+                  Bureau.</span>
+              </label>
+            </div>
+          </label>
+        </div>
+        <button type="submit" class="form-callback__button button button_fill button_fill-regular">send
+          request</button>
+      </form>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__top top-footer">
+      <div class="top-footer__main">
+        <div class="top-footer__row">
+          <a class="top-footer__logo" href="#">
+            <img src="img/footer-logo.svg" alt="Createx logo">
+          </a>
+          <div class="top-footer__socials socials-footer">
+            <a class="socials-footer__social" href="#" aria-label="Whatsapp">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M20 9.74244C20 15.1231 15.6047 19.4849 10.1818 19.4849C8.46022 19.4849 6.84289 19.0449 5.43578 18.2727L0 20L1.77222 14.7729C0.878222 13.3049 0.363333 11.5831 0.363333 9.74244C0.363333 4.36178 4.75911 0 10.1818 0C15.6051 0 20 4.36178 20 9.74244ZM10.1818 1.55156C5.62978 1.55156 1.92711 5.226 1.92711 9.74244C1.92711 11.5347 2.51133 13.1944 3.49956 14.5447L2.46822 17.5867L5.64044 16.5784C6.94378 17.4342 8.50511 17.9333 10.182 17.9333C14.7333 17.9333 18.4367 14.2593 18.4367 9.74289C18.4367 5.22644 14.7336 1.55156 10.1818 1.55156ZM15.1398 11.9862C15.0791 11.8869 14.9189 11.8269 14.6784 11.7076C14.4376 11.5882 13.254 11.0102 13.034 10.9309C12.8133 10.8513 12.6524 10.8113 12.4922 11.0502C12.332 11.2893 11.8707 11.8269 11.73 11.9862C11.5896 12.146 11.4493 12.166 11.2084 12.0464C10.968 11.9271 10.1927 11.6747 9.27333 10.8613C8.558 10.2284 8.07489 9.44711 7.93444 9.20778C7.79422 8.96889 7.91978 8.83978 8.04 8.72089C8.14844 8.61378 8.28089 8.442 8.40111 8.30267C8.52178 8.16311 8.56178 8.06378 8.64156 7.90422C8.72222 7.74489 8.682 7.60556 8.62156 7.48578C8.56156 7.36644 8.07978 6.19133 7.87933 5.71311C7.67889 5.23533 7.47867 5.31489 7.338 5.31489C7.19778 5.31489 7.03711 5.29489 6.87667 5.29489C6.71622 5.29489 6.45533 5.35467 6.23467 5.59356C6.01422 5.83267 5.39267 6.41044 5.39267 7.58533C5.39267 8.76044 6.25467 9.89578 6.37533 10.0549C6.49556 10.214 8.03978 12.7038 10.4864 13.66C12.9333 14.6158 12.9333 14.2969 13.3747 14.2569C13.8156 14.2171 14.7982 13.6793 14.9996 13.122C15.1996 12.5638 15.1996 12.0858 15.1398 11.9862Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a class="socials-footer__social" href="#" aria-label="Messanger">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M10 0C4.4775 0 0 4.145 0 9.25875C0 12.1725 1.45375 14.7712 3.72625 16.4688V20L7.13125 18.1313C8.04 18.3825 9.0025 18.5187 10 18.5187C15.5225 18.5187 20 14.3737 20 9.26C20 4.14625 15.5225 0 10 0ZM10.9937 12.4688L8.4475 9.7525L3.47875 12.4688L8.945 6.66625L11.5538 9.3825L16.46 6.66625L10.9937 12.4688Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a class="socials-footer__social" href="#" aria-label="Facebook">
+              <svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.5628 0.00457747L8.78558 0C5.66542 0 3.64903 2.12509 3.64903 5.41423V7.91055H0.85662C0.615322 7.91055 0.419922 8.1115 0.419922 8.35937V11.9763C0.419922 12.2241 0.615545 12.4249 0.85662 12.4249H3.64903V21.5514C3.64903 21.7993 3.84443 22 4.08573 22H7.72904C7.97033 22 8.16573 21.799 8.16573 21.5514V12.4249H11.4307C11.672 12.4249 11.8674 12.2241 11.8674 11.9763L11.8688 8.35937C11.8688 8.24036 11.8226 8.12638 11.7409 8.04215C11.6591 7.95793 11.5477 7.91055 11.4318 7.91055H8.16573V5.79439C8.16573 4.77728 8.40168 4.26094 9.6915 4.26094L11.5624 4.26025C11.8035 4.26025 11.9989 4.0593 11.9989 3.81166V0.453169C11.9989 0.205757 11.8037 0.00503522 11.5628 0.00457747Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a class="socials-footer__social" href="#" aria-label="Twitter">
+              <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M21.5 2.77233C20.7271 3.10027 19.8978 3.32267 19.0264 3.42196C19.9161 2.91181 20.5972 2.10263 20.92 1.1414C20.0854 1.61383 19.1642 1.95688 18.1826 2.14285C17.3966 1.33994 16.2785 0.839844 15.0384 0.839844C12.6593 0.839844 10.7303 2.68691 10.7303 4.9637C10.7303 5.2866 10.7683 5.60199 10.8418 5.90357C7.26201 5.73141 4.08768 4.08917 1.96314 1.59372C1.59176 2.20189 1.38049 2.91053 1.38049 3.66697C1.38049 5.09814 2.14161 6.36093 3.2964 7.09973C2.5904 7.07713 1.92639 6.89116 1.34508 6.58205V6.63357C1.34508 8.63141 2.83056 10.2988 4.80024 10.6783C4.43936 10.7713 4.05882 10.8228 3.66514 10.8228C3.38696 10.8228 3.11794 10.7964 2.85417 10.7461C3.40267 12.3859 4.99315 13.5783 6.87756 13.611C5.40388 14.7167 3.54573 15.3739 1.52749 15.3739C1.17976 15.3739 0.837236 15.3537 0.5 15.3173C2.40671 16.4896 4.67036 17.1732 7.10327 17.1732C15.028 17.1732 19.3597 10.8881 19.3597 5.43741L19.3453 4.90341C20.1917 4.32537 20.9239 3.59912 21.5 2.77233Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a class="socials-footer__social" href="#" aria-label="Youtube">
+              <svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M21.3903 1.11358C22.4182 1.39044 23.2288 2.20086 23.5055 3.22899C24.0197 5.10691 23.9999 9.02132 23.9999 9.02132C23.9999 9.02132 23.9999 12.9158 23.5057 14.7939C23.2288 15.8218 22.4184 16.6324 21.3903 16.9091C19.5122 17.4035 12 17.4035 12 17.4035C12 17.4035 4.50731 17.4035 2.60961 16.8895C1.58148 16.6127 0.771054 15.802 0.4942 14.7741C0 12.9158 0 9.00154 0 9.00154C0 9.00154 0 5.10691 0.4942 3.22899C0.770871 2.20104 1.60125 1.37066 2.60943 1.09399C4.48753 0.599609 11.9998 0.599609 11.9998 0.599609C11.9998 0.599609 19.5122 0.599609 21.3903 1.11358ZM15.8549 9.00158L9.60788 12.5996V5.40355L15.8549 9.00158Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="top-footer__descr">
+          <p>Createx Construction Bureau has been successfully operating in the USA construction market since 2000. We
+            are
+            proud to
+            offer you quality construction and exemplary service. Our mission is to set the highest standards for
+            construction
+            sphere.</p>
+        </div>
+      </div>
+      <div class="top-footer__subscribe subscribe-footer" data-da=".footer__container, 768, 2">
+        <h3 class="subscribe-footer__title">Let’s stay in touch</h3>
+        <form action="#" class="subscribe-footer__form form-subscribe">
+          <input autocomplete="off" type="text" name="form-subscribe-email" placeholder="Your email address"
+            class="form-subscribe__input input" data-required="email">
+          <button type="submit" class="form-subscribe__button button button_fill button_fill-regular">subscribe</button>
+        </form>
+        <div class="subscribe-footer__descr">
+          <p>*Subscribe to our newsletter to receive communications and early updates from Createx Construction Bureau.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer__main main-footer">
+      <nav class="main-footer__menu menu-footer">
+        <div class="menu-footer__column">
+          <h3 class="menu-footer__title">HEAD OFFICE</h3>
+          <ul class="menu-footer__list">
+            <li class="menu-footer__item">
+              <div class="menu-footer__label">Address:</div>
+              <span class="menu-footer__value">8502 Preston Rd. Inglewood, New York</span>
+            </li>
+            <li class="menu-footer__item">
+              <div class="menu-footer__label">Call:</div>
+              <a class="menu-footer__value menu-footer__value_link" href="tel:4055550128">(405) 555-0128</a>
+            </li>
+            <li class="menu-footer__item">
+              <div class="menu-footer__label">Email:</div>
+              <a class="menu-footer__value menu-footer__value_link"
+                href="mailto:hello@createx.com">hello@createx.com</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-footer__column">
+          <h3 class="menu-footer__title">WHO WE ARE</h3>
+          <ul class="menu-footer__list">
+            <li class="menu-footer__item">
+              <a class="menu-footer__value menu-footer__value_link" href="#">About Us</a>
+            </li>
+            <li class="menu-footer__item">
+              <a class="menu-footer__value menu-footer__value_link" href="#">Available Positions</a>
+            </li>
+            <li class="menu-footer__item">
+              <a class="menu-footer__value menu-footer__value_link" href="#">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div class="menu-footer__column">
+          <h3 class="menu-footer__title">OUR EXPERIENCE</h3>
+          <ul class="menu-footer__list">
+            <li class="menu-footer__item">
+              <a class="menu-footer__value menu-footer__value_link" href="#">Services</a>
+            </li>
+            <li class="menu-footer__item">
+              <a class="menu-footer__value menu-footer__value_link" href="#">Work</a>
+            </li>
+            <li class="menu-footer__item">
+              <a class="menu-footer__value menu-footer__value_link" href="#">News</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__copy">
+        © All rights reserved. Made with <span>
+          <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M7.99925 12.2715C4.93321 10.5252 3.22318 8.78955 2.39626 7.28361C1.54992 5.74228 1.62377 4.4441 2.0934 3.52273C3.05872 1.62892 5.80378 1.02333 7.4763 3.13865L7.99921 3.80001L8.52217 3.13868C10.195 1.02327 12.9402 1.62896 13.9055 3.52273C14.3751 4.44408 14.4489 5.74226 13.6025 7.28359C12.7756 8.78954 11.0654 10.5252 7.99925 12.2715ZM7.99928 1.73726C5.64647 -0.498482 2.17555 0.425546 0.905488 2.91723C0.20846 4.2847 0.198939 6.05212 1.22753 7.92536C2.247 9.78198 4.2796 11.7417 7.67675 13.6194L7.99924 13.7976L8.32173 13.6194C11.719 11.7417 13.7517 9.78199 14.7712 7.92537C15.7999 6.05214 15.7904 4.28472 15.0934 2.91723C13.8233 0.425498 10.3523 -0.498448 7.99928 1.73726Z"
+              fill="#FF5A30" />
+          </svg>
+        </span>
+        by Createx Studio
+      </div>
+      <div class="footer__bottom-scrool">
+        <button class="scroll-top" type="button">
+          <div class="scroll-top__label">go to top</div>
+          <span class="visually-hidden">Scroll page to top</span>
+          <div class="scroll-top__icon">
+            <svg width="16" height="9" viewBox="0 0 16 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M0.292893 8.70711C-0.0976311 8.31658 -0.0976311 7.68342 0.292893 7.29289L7.29289 0.292893C7.68342 -0.0976315 8.31658 -0.0976315 8.70711 0.292893L15.7071 7.29289C16.0976 7.68342 16.0976 8.31658 15.7071 8.70711C15.3166 9.09763 14.6834 9.09763 14.2929 8.70711L8 2.41421L1.70711 8.70711C1.31658 9.09763 0.683417 9.09763 0.292893 8.70711Z"
+                fill="white" />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</footer>
+  </div>
+
+  <div id="popup" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close">Закрыть</button>
+      <div class="popup__text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem numquam voluptatum inventore
+        voluptatibus at cumque iste, quas molestias nihil eos est sit vitae, iusto ipsum tenetur. Illum ipsum nesciunt
+        totam! Expedita minus nesciunt nihil? Repudiandae aperiam soluta debitis, fugit sint quaerat, quo iure dolorum
+        accusantium quis tempora similique suscipit pariatur maiores. Aliquam veritatis sit iste mollitia harum magni
+        commodi placeat minus debitis. Voluptatum dolor ipsa totam distinctio. Necessitatibus architecto minima aliquam,
+        laudantium magni odit atque, modi error maxime pariatur exercitationem consequatur reprehenderit quae voluptate
+        blanditiis amet temporibus ducimus? Sapiente et eos praesentium distinctio fugiat, dolores quod cupiditate
+        similique repellat natus.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="available-subscribe" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close"></button>
+      <div class="popup__available available-popup">
+        <div class="available-popup__body">
+          <h3 class="available-popup__title">Subscribe to our newsletter</h3>
+          <form action="#" class="available-popup__form form-available">
+            <div class="form-available__body">
+              <label class="form-available__item">
+                <div class="form-available__label">Name*</div>
+                <input autocomplete="off" type="text" name="available-name" placeholder="Your name"
+                  class="form-available__input input" data-required>
+              </label>
+              <label class="form-available__item">
+                <div class="form-available__label">Email*</div>
+                <input autocomplete="off" type="text" name="available-email" placeholder="Your working email"
+                  class="form-available__input input" data-required="email">
+              </label>
+            </div>
+            <button type="submit" class="form-available__button button button_fill button_fill-regular">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="available-send" aria-hidden="true" class="popup">
+  <div class="popup__wrapper">
+    <div class="popup__content">
+      <button data-close type="button" class="popup__close"></button>
+      <div class="popup__available available-popup">
+        <div class="available-popup__body">
+          <h3 class="available-popup__title">Send your CV</h3>
+          <form action="#" class="available-popup__form form-available">
+            <div class="form-available__body">
+              <label class="form-available__item">
+                <div class="form-available__label">Name*</div>
+                <input autocomplete="off" type="text" name="available-name-send" placeholder="Your name"
+                  class="form-available__input input" data-required>
+              </label>
+              <label class="form-available__item">
+                <div class="form-available__label">Location*</div>
+                <select name="available-location-send" data-class-modif="form" data-required>
+                  <option value="" selected>Choose your location</option>
+                  <option value="1">Choose your location 1</option>
+                  <option value="2">Choose your location 2</option>
+                  <option value="3">Choose your location 3</option>
+                </select>
+              </label>
+              <label class="form-available__item">
+                <div class="form-available__label">Phone*</div>
+                <input autocomplete="off" type="text" name="available-phone-send" placeholder="Your phone number"
+                  class="form-available__input input" data-required="tel" data-tel-input>
+              </label>
+              <label class="form-available__item">
+                <div class="form-available__label">Email*</div>
+                <input autocomplete="off" type="text" name="available-email-send" placeholder="Your working email"
+                  class="form-available__input input" data-required="email">
+              </label>
+              <label class="form-available__item">
+                <div class="form-available__label">Сovering letter</div>
+                <textarea autocomplete="off" name="available-letter-send" placeholder="Your covering letter"
+                  class="form-available__input input" data-required data-min-length="10"
+                  data-max-length="100"></textarea>
+              </label>
+              <label class="form-available__item">
+                <div class="form-available__file file-available">
+                  <input type="file" multiple data-required class="file-available__input">
+                  <div class="file-available__button">
+                    <div class="file-available__icon"></div>
+                    Attach your CV*
+                  </div>
+                </div>
+              </label>
+            </div>
+            <button type="submit" class="form-available__button button button_fill button_fill-regular">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
